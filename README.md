@@ -2,11 +2,7 @@
 
 Before you start, ensure you are connected to the Chef VPN!!!
 
-## Setup workstation
-
-1. [Install Git](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-2. [Install ChefDK](https://downloads.chef.io/chef-dk/)
-3. [Install Delivery CLI](https://github.com/chef/delivery_self_guided_trial/blob/master/install_cli.md)
+## [Setup workstation](setup-workstation.md)
 
 ## Delivery Server Cluster Settings
 
@@ -24,7 +20,7 @@ Before you start, ensure you are connected to the Chef VPN!!!
         * [Rehearsal](http://10.194.11.252)
         * [Delivered](http://10.194.8.147)  
   * Build Node: build-node-emea_dc-1 - 10.194.13.100
-  * Users - Make sure you log in and enter your SSH public key into your own user profile.  [Instructions to generate an ssh key](https://help.github.com/articles/generating-ssh-keys/)
+  * Users - Make sure you log in and enter your SSH public key into your own user profile.  [Instructions to generate an ssh key](https://help.github.com/articles/generating-ssh-keys/).  Default password is ```delivery```.
     * amanly - Alex Manly
     * apop - Alex Pop
     * dromologue - Justin Arbuckle
@@ -35,20 +31,16 @@ Before you start, ensure you are connected to the Chef VPN!!!
     * sc0ttruss - Scott Russell
     * yvo - Yvo van Doorn
 
-### Submit a Change
-
-1. [Submit a change](delivery-demo.md)
-
 ## Chef Server Settings
 
 * [Manage Chef Web Login](https://10.194.15.21/login)
-  * Username: delivery
+  * Username: Same usernames as delivery server.  Default password is ```manage```.
   * Organisation: emea_org
   
 ## Analytics Server Settings
 
 * [Analytics Web Login](https://10.194.14.170/#/)
-  * Username: delivery
+  * Username: Same usernames as delivery server.  Default password is ```manage```.
   * Organisation: emea_org
   * Hipchat Room: Analytics Demo Notifications
  
@@ -57,6 +49,9 @@ Before you start, ensure you are connected to the Chef VPN!!!
 * [Splunk Web Login](http://10.194.15.203:8000/en-US/account/login?return_to=%2Fen-US%2F)
   * Username: admin
 
+## Delivery Demo Instructions
+
+1. [Submit a change](delivery-demo.md)
 
 ## LICENSE AND AUTHORS
 - Author: Alex Manly (<amanly@chef.io>)

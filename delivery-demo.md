@@ -2,14 +2,19 @@
 
 ## Initial one time set up (per project)
 
+* Setup Workstation [ChefDK, Git, Delivery CLI](setup-workstation.md) 
 * Log into the [Delivery Server](https://10.194.9.71/e/emea_enterprise/#/login)
 * Click on the Organisation named [dbaas](https://10.194.9.71/e/emea_enterprise/#/organizations/dbaas).  
 * Click on the Project name [sitedbaas](https://10.194.9.71/e/emea_enterprise/#/organizations/dbaas/projects/sitedbaas).
 * In the top of the page click the 'Clone Project' button.  Select and copy the clone command. 
-  * `delivery clone sitedbaas --ent=emea_enterprise --org=dbaas --user=<YOUR USERNAME> --server=10.194.9.71`
+
+        
+        delivery clone sitedbaas --ent=emea_enterprise --org=dbaas --user=<YOUR USERNAME> --server=10.194.9.71
+        
+
 * In a command prompt enter the delivery clone command to clone the project onto your local workspace, then change directory into the project within your workspace. 
 
-       
+        
         cd <MY_LOCAL_WORKSPACE>
         delivery clone sitedbaas --ent=emea_enterprise --org=dbaas --user=<YOUR USERNAME> --server=10.194.9.71
         cd sitedbaas
@@ -67,3 +72,5 @@
    * Union: [http://10.194.15.106/](http://10.194.15.106/)
    * Rehearsal: [http://10.194.11.252/](http://10.194.11.252/)
    * Delivered: [http://10.194.8.147/](http://10.194.8.147/)
+
+[Back Home](README.md)
