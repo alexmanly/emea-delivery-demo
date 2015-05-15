@@ -57,13 +57,13 @@ workstation. Currently we support Mac, Ubuntu 14.04, RHEL 6.5, EL 6.5.
 ## Chef Server Settings
 
 * [Manage Chef Web Login](https://10.194.15.21/login)
-  * Username: Same as delivery server.  Default password is ```manage```.
+  * Username: Same usernames as delivery server.  Default password is ```manage```.
   * Organisation: emea_org
   
 ## Analytics Server Settings
 
 * [Analytics Web Login](https://10.194.14.170/#/)
-  * Username: delivery
+  * Username: Same usernames as delivery server.  Default password is ```manage```.
   * Organisation: emea_org
   * Hipchat Room: Analytics Demo Notifications
  
