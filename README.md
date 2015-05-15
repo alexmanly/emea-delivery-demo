@@ -1,4 +1,4 @@
-# EMEA Delivery Demo Server
+# EMEA Demo Infrastructure
 
 Before you start, ensure you are connected to the Chef VPN!!!
 
@@ -24,6 +24,15 @@ Before you start, ensure you are connected to the Chef VPN!!!
         * [Rehearsal](http://10.194.11.252)
         * [Delivered](http://10.194.8.147)  
   * Build Node: build-node-emea_dc-1 - 10.194.13.100
+  * Users
+    * amanly - Alex Manly
+    * apop - Alex Pop
+    * dromologue - Justin Arbuckle
+    * jfitzpatrick - John Fiztpatrick
+    * kjohnson - Kimball Johnson
+    * mdepue - Matt Depue
+    * mducy - Michael Ducy
+    * sc0ttruss - Scott Russell
 
 ## Chef Server Settings
 
