@@ -2,7 +2,7 @@
 
 ## Initial one time set up (per project)
 
-* Setup Workstation [ChefDK, Git, Delivery CLI](README.md) 
+* Setup Workstation [ChefDK, Git, Delivery CLI](setup-workstation.md) 
 * Log into the [Delivery Server](https://10.194.9.71/e/emea_enterprise/#/login)
 * Click on the Organisation named [dbaas](https://10.194.9.71/e/emea_enterprise/#/organizations/dbaas).  
 * Click on the Project name [sitedbaas](https://10.194.9.71/e/emea_enterprise/#/organizations/dbaas/projects/sitedbaas).
