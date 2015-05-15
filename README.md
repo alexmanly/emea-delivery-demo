@@ -2,12 +2,9 @@
 
 ## Setup workstation
 
-1. Install build-essential on linux or developer tools on mac
-2. [Install Git](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-3. [Install ChefDK](https://downloads.chef.io/chef-dk/)
-4. Install 'knife push': ```chef gem install knife-push```
-5. [Install Delivery CLI](https://github.com/chef/delivery_self_guided_trial/blob/master/install_cli.md)
-
+1. [Install Git](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+2. [Install ChefDK](https://downloads.chef.io/chef-dk/)
+3. [Install Delivery CLI](https://github.com/chef/delivery_self_guided_trial/blob/master/install_cli.md)
 
 ## Delivery Server Cluster Settings
 
