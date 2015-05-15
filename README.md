@@ -35,11 +35,9 @@ Before you start, ensure you are connected to the Chef VPN!!!
     * sc0ttruss - Scott Russell
     * yvo - Yvo van Doorn
 
-### Creating Projects, Pipelines, and Changes
+### Submit a Change
 
-1. [Create and Import a new cookbook](https://github.com/chef/delivery_self_guided_trial/blob/master/new_cookbook.md)
-2. [Import and existing cookbook](https://github.com/chef/delivery_self_guided_trial/blob/master/import_cookbook.md)
-3. [Create cookbook manual delivery steps](https://github.com/chef/delivery_self_guided_trial/blob/master/new_cookbook_manual.md)
+1. [Submit a change](delivery-demo.md)
 
 ## Chef Server Settings
 
