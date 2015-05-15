@@ -35,6 +35,12 @@ Before you start, ensure you are connected to the Chef VPN!!!
     * sc0ttruss - Scott Russell
     * yvo - Yvo van Doorn
 
+### Creating Projects, Pipelines, and Changes
+
+1. [Create and Import a new cookbook](https://github.com/chef/delivery_self_guided_trial/blob/master/new_cookbook.md)
+2. [Import and existing cookbook](https://github.com/chef/delivery_self_guided_trial/blob/master/import_cookbook.md)
+3. [Create cookbook manual delivery steps](https://github.com/chef/delivery_self_guided_trial/blob/master/new_cookbook_manual.md)
+
 ## Chef Server Settings
 
 * [Manage Chef Web Login](https://10.194.15.21/login)
@@ -52,15 +58,6 @@ Before you start, ensure you are connected to the Chef VPN!!!
 
 * [Splunk Web Login](http://10.194.15.203:8000/en-US/account/login?return_to=%2Fen-US%2F)
   * Username: admin
-
-## Creating Projects, Pipelines, and Changes
-
-We will work through a few examples to give you a sense of the
-different paths to get a project going in Delivery:
-
-1. [Create and Import a new cookbook](https://github.com/chef/delivery_self_guided_trial/blob/master/new_cookbook.md)
-2. [Import and existing cookbook](https://github.com/chef/delivery_self_guided_trial/blob/master/import_cookbook.md)
-3. [Create cookbook manual delivery steps](https://github.com/chef/delivery_self_guided_trial/blob/master/new_cookbook_manual.md)
 
 
 ## LICENSE AND AUTHORS
