@@ -17,33 +17,53 @@
 
 ## Submit a change
 
-  1. Create feature branch.
+  1. Change into the project directory.
+
+        
+        cd <MY_LOCAL_WORKSPACE>/sitedbaas
+        
+
+  2. Create feature branch.
 
         
         git checkout -b my_feature_branch
         
 
-  2. Make a changes to the cookbook.
+  3. Make a changes to the cookbook.
 
         
         vi attributes/default.rb  # Edit the default['sitedbaas']['company-name'] value
         vi metadata.rb            # Bump the version of the cookbook
         
  
-  3. Add the changes.
+  4. Add the changes.
 
         
         git add .
         
 
-  4. Commit the changes.
+  5. Commit the changes.
 
         
         git commit -m "My awesome new feature"
         
 
-  4. Deliver the change
+  6. Deliver the change
 
         
         delivery review
         
+
+  7. Watch the change in the delivery server.  When the job is ready for review enter a comment and approve the change.
+
+        
+        http://replygif.net/i/716.gif
+        
+
+  8. When the change is deployed to in the Acceptance stage then check the change in a browser
+   * Acceptance: [http://10.194.8.123/](http://10.194.8.123/)
+
+  9. When you are happy with acceptance, then click the deliver button.  Check each environment as they are deployed.
+   * Union: [http://10.194.15.106/](http://10.194.15.106/)
+   * Rehearsal: [http://10.194.11.252/](http://10.194.11.252/)
+   * Delivered: [http://10.194.8.147/](http://10.194.8.147/)
