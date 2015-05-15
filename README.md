@@ -24,7 +24,7 @@ Before you start, ensure you are connected to the Chef VPN!!!
         * [Rehearsal](http://10.194.11.252)
         * [Delivered](http://10.194.8.147)  
   * Build Node: build-node-emea_dc-1 - 10.194.13.100
-  * Users
+  * Users - Make sure you log in and enter your SSH public key into your own user profile
     * amanly - Alex Manly
     * apop - Alex Pop
     * dromologue - Justin Arbuckle
