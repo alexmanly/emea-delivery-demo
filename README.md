@@ -42,7 +42,7 @@
 ## Splunk Server Settings 
 
 * [Splunk Web Login](http://10.194.15.203:8000/en-US/account/login?return_to=%2Fen-US%2F)
-  * Username: delivery
+  * Username: admin
 
 ## Creating Projects, Pipelines, and Changes
 
