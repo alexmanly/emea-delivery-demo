@@ -1,5 +1,7 @@
 # EMEA Delivery Demo Server
 
+Before you start, ensure you are connected to the Chef VPN!!!
+
 ## Setup workstation
 
 1. [Install Git](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
