@@ -43,7 +43,7 @@ workstation. Currently we support Mac, Ubuntu 14.04, RHEL 6.5, EL 6.5.
         * [Rehearsal](http://10.194.11.252)
         * [Delivered](http://10.194.8.147)  
   * Build Node: build-node-emea_dc-1 - 10.194.13.100
-  * Users - Make sure you log in and enter your SSH public key into your own user profile.  [Instructions to generate an ssh key](https://help.github.com/articles/generating-ssh-keys/)
+  * Users - Make sure you log in and enter your SSH public key into your own user profile.  [Instructions to generate an ssh key](https://help.github.com/articles/generating-ssh-keys/).  Default password is ```delivery```.
     * amanly - Alex Manly
     * apop - Alex Pop
     * dromologue - Justin Arbuckle
@@ -57,7 +57,7 @@ workstation. Currently we support Mac, Ubuntu 14.04, RHEL 6.5, EL 6.5.
 ## Chef Server Settings
 
 * [Manage Chef Web Login](https://10.194.15.21/login)
-  * Username: delivery
+  * Username: Same as delivery server.  Default password is ```manage```.
   * Organisation: emea_org
   
 ## Analytics Server Settings
