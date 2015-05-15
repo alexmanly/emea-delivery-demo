@@ -54,10 +54,6 @@ workstation. Currently we support Mac, Ubuntu 14.04, RHEL 6.5, EL 6.5.
     * sc0ttruss - Scott Russell
     * yvo - Yvo van Doorn
 
-### Submit a Change
-
-1. [Submit a change](delivery-demo.md)
-
 ## Chef Server Settings
 
 * [Manage Chef Web Login](https://10.194.15.21/login)
@@ -76,6 +72,9 @@ workstation. Currently we support Mac, Ubuntu 14.04, RHEL 6.5, EL 6.5.
 * [Splunk Web Login](http://10.194.15.203:8000/en-US/account/login?return_to=%2Fen-US%2F)
   * Username: admin
 
+## Delivery Demo Instructions
+
+1. [Submit a change](delivery-demo.md)
 
 ## LICENSE AND AUTHORS
 - Author: Alex Manly (<amanly@chef.io>)
