@@ -8,6 +8,42 @@
 4. Install 'knife push': ```chef gem install knife-push```
 5. [Install Delivery CLI](https://github.com/chef/delivery_self_guided_trial/blob/master/install_cli.md)
 
+
+## Delivery Server Cluster Settings
+
+* [Delivery Server Web Login](https://10.194.9.71)
+  * Enterprise: [emea_enterprise](https://10.194.9.71/e/emea_enterprise/)
+    * Organisation: [dbaas](https://10.194.9.71/e/emea_enterprise/#/organizations/dbaas)
+      * Project - [httpdbaas](https://10.194.9.71/e/emea_enterprise/#/organizations/dbaas/projects/httpdbaas)
+        * [Acceptance](http://10.194.13.23)
+        * [Union](http://10.194.15.114)
+        * [Rehearsal](http://10.194.9.160) 
+        * [Delivered](http://10.194.8.220)
+      * Project - [sitedbaas](https://10.194.9.71/e/emea_enterprise/#/organizations/dbaas/projects/sitedbaas)
+        * [Acceptance](http://10.194.8.123) 
+        * [Union](http://10.194.15.106)
+        * [Rehearsal](http://10.194.11.252)
+        * [Delivered](http://10.194.8.147)  
+  * Build Node: build-node-emea_dc-1 - 10.194.13.100
+
+## Chef Server Settings
+
+* [Manage Chef Web Login](https://10.194.15.21/login)
+  * Username: delivery
+  * Organisation: emea_org
+  
+## Analytics Server Settings
+
+* [Analytics Web Login](https://10.194.14.170/#/)
+  * Username: delivery
+  * Organisation: emea_org
+  * Hipchat Room: EMEA Analytics Demo
+ 
+## Splunk Server Settings 
+
+* [Splunk Web Login](http://10.194.15.203:8000/en-US/account/login?return_to=%2Fen-US%2F)
+  * Username: delivery
+
 ## Creating Projects, Pipelines, and Changes
 
 We will work through a few examples to give you a sense of the
