@@ -52,7 +52,7 @@ Before you start, ensure you are connected to the Chef VPN!!!
 * [Analytics Web Login](https://10.194.14.170/#/)
   * Username: delivery
   * Organisation: emea_org
-  * Hipchat Room: EMEA Analytics Demo
+  * Hipchat Room: Analytics Demo Notifications
  
 ## Splunk Server Settings 
 
