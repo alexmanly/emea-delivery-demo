@@ -27,6 +27,10 @@ workstation. Currently we support Mac, Ubuntu 14.04, RHEL 6.5, EL 6.5.
 1. ```curl -o delivery-cli.rpm https://s3.amazonaws.com/delivery-packages/cli/delivery-cli-20150408004719-1.x86_64.rpm```
 2. ```sudo yum install delivery-cli.rpm```
 
+##### Initialise Delivery Tool
+1. ```delivery init --user <USERNAME> --server 10.194.9.71 --ent emea_enterprise --org dbaas```
+2. ```delivery token --server 10.194.9.71 --ent emea_enterprise --user <USERNAME> ```
+
 ## Delivery Server Cluster Settings
 
 * [Delivery Server Web Login](https://10.194.9.71)
