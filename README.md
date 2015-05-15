@@ -33,6 +33,7 @@ Before you start, ensure you are connected to the Chef VPN!!!
     * mdepue - Matt Depue
     * mducy - Michael Ducy
     * sc0ttruss - Scott Russell
+    * yvo - Yvo van Doorn
 
 ## Chef Server Settings
 
