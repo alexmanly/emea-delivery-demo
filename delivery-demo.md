@@ -1,5 +1,7 @@
 # Delivery Demo
 
+Before you start, ensure you are connected to the Chef VPN!!!
+
 ## Initial one time set up (per project)
 
 * Setup Workstation [ChefDK, Git, Delivery CLI](setup-workstation.md) 
